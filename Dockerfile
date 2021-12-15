@@ -5,4 +5,4 @@ RUN apk --no-cache add curl ca-certificates bash && \
     chmod a+x bin/buildctl && \
     mv bin/buildctl /usr/local/bin/ && \
     rm -rf ./bin
-CMD ["/bin/bash", "/buildctl.sh"]
+CMD ["/buildctl.sh"]

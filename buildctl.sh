@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 if [ -z ${PLUGIN_ADDR} ]; then
   exit 1
